@@ -1,0 +1,21 @@
+class Family{
+  String?father;
+  String? mother;
+  
+  Family(String father,String mother){
+    this.father=father;
+    this.mother=mother;
+  }
+  printFamily(){
+  print("this is my family");
+  print( this.father);
+    print(this.mother);
+}
+
+}
+void main(){
+  Family fam=Family("ismail","shabna");
+  fam.printFamily();
+ 
+ 
+}
