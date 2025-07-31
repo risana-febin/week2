@@ -1,0 +1,12 @@
+  class Student{
+  String name="risana";
+  int age=21;
+
+ void aboutMe(){
+   print ("its me febin");
+ }
+  }
+ void main(){
+ Student data=Student();
+   data.aboutMe();
+ }
