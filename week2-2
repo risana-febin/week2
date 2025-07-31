@@ -1,0 +1,15 @@
+ class Data{
+   String name="ismail";
+   String name1="shabna";
+
+ void fam(){
+   print("its my parents");
+ }
+ }
+ void main(){
+   Data about=Data();
+   about.fam();
+   print(about.name);
+  print(about.name1);
+    Data family=Data();
+   family.fam();
