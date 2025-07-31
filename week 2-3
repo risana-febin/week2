@@ -1,0 +1,18 @@
+ class Animal{
+  void eat(){
+    print("animal is eating");
+  }
+   
+   }
+class Dog extends Animal{
+  void sound(){
+    print("dog make the sound bow");
+  }
+}
+ void main(){
+//    Animal anm=Animal();
+//    anm.eat();
+   Dog d=Dog();
+   d.sound();
+   d.eat();
+ }
