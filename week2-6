@@ -1,0 +1,55 @@
+
+class Family{
+  String?_father;
+  String?_mother;
+  String?_sister;
+  String?_brother;
+  String?_grndma;
+  
+  String getFather(){
+    return _father!;
+  }
+  String getMother(){
+    return _mother!;
+  }
+  String getSister(){
+    return _sister!;
+  }
+  String getBrother(){
+    return _brother!;
+  }
+  String getGrndma(){
+    return _grndma!;
+  }
+  void  setFather(String father){
+    this._father=father;
+  }
+  void setMother(String mother){
+    this._mother=mother;
+  }
+   void  setSister(String sister){
+    this._sister=sister;
+  }
+   void  setBrother(String brother){
+    this._brother=brother;
+  }
+   void  setGrndma(String grndma){
+    this._grndma=grndma;
+  }
+}
+void main(){
+  Family emp=Family();
+  print("this is my world");
+  print("******************");
+  emp.setFather("father:"+"ismail");
+  emp.setMother("mother:"+"shabna");
+  emp.setSister("sister:"+"shahana");
+  emp.setBrother("brother:"+"niyas");
+  emp.setGrndma("grandma:"+"mariyam");
+  print(emp.getFather());
+  print(emp.getMother());
+  print(emp.getSister());
+  print(emp.getBrother());
+  print(emp.getGrndma());
+  
+}
