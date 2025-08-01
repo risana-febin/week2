@@ -1,0 +1,33 @@
+abstract class Vehicle{
+  void start();
+  void stop();
+}
+class Bike extends Vehicle{
+  void start(){
+    print("bike start");
+  }
+  void stop(){
+    print("bike stop");
+  }
+}
+class Car extends Vehicle{
+  void start(){
+    print("car start");
+  }
+  void stop(){
+    print("car stop");
+  }
+}
+printVehicle(){
+  print("its about vehicle");
+}
+void main(){
+  printVehicle();
+  Car c=Car();
+  c.start();
+  c.stop();
+  
+  Bike d=Bike();
+  d.start();
+  d.stop();
+}
