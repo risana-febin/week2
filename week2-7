@@ -1,0 +1,24 @@
+
+class Animal{
+  void eat(){
+    print("animal eating");
+  }
+}
+class Dog extends Animal{
+  @override
+  void eat(){
+    print("dog eat non veg");
+  }
+}
+class Cat extends Animal{
+  @override
+  void eat(){
+    print("cat eat non veg");
+  }
+}
+void main(){
+  Dog d=Dog();
+  d.eat();
+  Cat c=Cat();
+  c.eat();
+}
